@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-logo">
+            <p>RECEITARIA .</p>
+        </div>
+        <div class="nav-menu" id="navMenu">
+            <ul>
+                <li><a href="#" class="link">Projeto</a></li>
+                <li><a href="#" class="link">Quem Somos</a></li>
+            </ul>
+        </div>
+      </div>
+      <div class="nav-menu-btn">
+          <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+      </div>
+  </nav>
+
+        <div class="container">
+          <div class="form-box">
+              <h1>Entrar</h1>
+              <div id="msgError"></div>
+              <div class="label-float">
+                  <input type="text" class="input-field" id="usuario" placeholder="" required />
+                  <label id="userLabel" for="usuario">Usuário</label>
+                  <i class="bx bx-user"></i>
+              </div>
+              <div class="label-float">
+                  <input type="password" class="input-field" id="senha" placeholder="" required />
+                  <label id="senhaLabel" for="senha">Senha</label>
+                  <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
+              </div>
+  
+              <div class="justify-center">
+                  <button onclick="entrar()">Entrar</button>
+              </div>
+              <p>Não tem uma conta? <a href="../html/cadast.html">Cadastre-se</a></p>
+          </div>
+      </div>
+  
+      <script src="../js/login.js"></script>
+  </body>
+  </html>
+  
